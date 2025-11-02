@@ -1,0 +1,383 @@
+@import "tailwindcss";
+
+* {
+  direction: rtl;
+  font-family: iranyekan !important;
+}
+
+:root {
+  --primary: #a72f3b;
+  --tint-7: #b95962;
+  --tint-6: #ca8289;
+  --tint-5: #dcacb1;
+  --tint-4: #e5c1c4;
+  --tint-3: #edd5d8;
+  --tint-2: #f6eaeb;
+  --tint-1: #ffffff;
+  --shade-1: #86262f;
+  --shade-2: #641c23;
+  --shade-3: #431318;
+  --shade-4: #320e12;
+  --shade-5: #21090c;
+  --shade-6: #641C23;
+  --shade-7: #000000;
+  --gray-1: #f8f8f8;
+  --gray-2: #f0f0f0;
+  --gray-3: #ededed;
+  --gray-4: #d6d6d6;
+  --gray-5: #cbcbcb;
+  --gray-6: #afafaf;
+  --gray-7: #898989;
+  --gray-8: #656565;
+  --gray-9: #434343;
+  --gray-10: #242424;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-tint-7: var(--tint-7);
+  --color-tint-6: var(--tint-6);
+  --color-tint-5: var(--tint-5);
+  --color-tint-4: var(--tint-4);
+  --color-tint-3: var(--tint-3);
+  --color-tint-2: var(--tint-2);
+  --color-tint-1: var(--tint-1);
+  --color-shade-1: var(--shade-1);
+  --color-shade-2: var(--shade-2);
+  --color-shade-3: var(--shade-3);
+  --color-shade-4: var(--shade-4);
+  --color-shade-5: var(--shade-5);
+  --color-shade-6: var(--shade-6);
+  --color-shade-7: var(--shade-7);
+  --color-gray-1: var(--gray-1);
+  --color-gray-2: var(--gray-2);
+  --color-gray-3: var(--gray-3);
+  --color-gray-4: var(--gray-4);
+  --color-gray-5: var(--gray-5);
+  --color-gray-6: var(--gray-6);
+  --color-gray-7: var(--gray-7);
+  --color-gray-8: var(--gray-8);
+  --color-gray-9: var(--gray-9);
+  --color-gray-10: var(--gray-10);
+}
+
+.container {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: bold;
+
+  src: url("./assets/fonts/eot/iranyekanwebbold.eot");
+  src: url("./assets/fonts/eot/iranyekanwebbold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebbold.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 100;
+  src: url("./assets/fonts/eot/iranyekanwebthin.eot");
+  src: url("./assets/fonts/eot/iranyekanwebthin.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebthin.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebthin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/eot/iranyekanweblight.eot");
+  src: url("./assets/fonts/eot/iranyekanweblight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanweblight.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanweblight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/eot/iranyekanwebregular.eot");
+  src: url("./assets/fonts/eot/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebregular.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebregular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/eot/iranyekanwebmedium.eot");
+  src: url("./assets/fonts/eot/iranyekanwebmedium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebmedium.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebmedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/eot/iranyekanwebextrabold.eot");
+  src: url("./assets/fonts/eot/iranyekanwebextrabold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebextrabold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebextrabold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 900;
+  src: url("./assets/fonts/eot/iranyekanwebblack.eot");
+  src: url("./assets/fonts/eot/iranyekanwebblack.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebblack.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebblack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 950;
+  src: url("./assets/fonts/eot/iranyekanwebextrablack.eot");
+  src: url("./assets/fonts/eot/iranyekanwebextrablack.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/woff/iranyekanwebextrablack.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/ttf/iranyekanwebextrablack.ttf") format("truetype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: iranyekan !important;
+}
+h1 {
+  line-height: 140%;
+  font-size: 44px;
+  font-weight: bold;
+}
+h2 {
+  line-height: 140%;
+  font-size: 40px;
+  font-weight: bold;
+}
+h3 {
+  line-height: 140%;
+  font-size: 32px;
+  font-weight: 800;
+}
+h4 {
+  line-height: 140%;
+  font-size: 24px;
+  font-weight: bold;
+}
+h5 {
+  line-height: 140%;
+  font-size: 20px;
+  font-weight: bold;
+}
+h6 {
+  line-height: 140%;
+  font-size: 18px;
+  font-weight: bold;
+}
+@layer utilities {
+  .bd1 {
+    line-height: 180%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .db2 {
+    line-height: 180%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .db3 {
+    line-height: 180%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .db4 {
+    line-height: 180%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .db5 {
+    line-height: 180%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .dbLight {
+    line-height: 180%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .caption1 {
+    line-height: 180%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .caption2 {
+    line-height: 180%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .caption3 {
+    line-height: 180%;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .caption4 {
+    line-height: 180%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+#imgbar::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: -15px;
+  width: 190px;
+  height: 314px;
+  border-radius: 8px;
+  background-color: var(--tint-2);
+  rotate: 8deg;
+}
+
+#imgbar::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 15px;
+  width: 190px;
+  height: 314px;
+  border-radius: 8px;
+  background-color: var(--tint-2);
+  rotate: 8deg;
+}
+
+#wapperimg::before {
+  content: "";
+  position: absolute;
+  left: -180px;
+  border-radius: 8px;
+  top: 216px;
+  width: 241px;
+  height: 381px;
+  background-color: var(--color-tint-2);
+  rotate: 8deg;
+}
+
+#wapperimg::after {
+  content: "";
+  position: absolute;
+  right: -180px;
+  border-radius: 8px;
+  top: -50px;
+  width: 241px;
+  height: 381px;
+  background-color: var(--color-tint-2);
+  rotate: 8deg;
+}
+
+#specialOffers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  direction: ltr;
+}
+
+#specialOffers div:nth-last-of-type(1) {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row: span 2 / span 2;
+  width: 600px;
+  height: 576px;
+}
+
+#specialOffers div:nth-last-of-type(2) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#specialOffers div:nth-last-of-type(3) {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#specialOffers div:nth-last-of-type(4) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#postalcard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+#postalcard div:nth-last-of-type(1) {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row: span 2 / span 2;
+  width: 288px;
+  height: 160px;
+}
+
+#postalcard div:nth-last-of-type(2) {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#postalcard div:nth-last-of-type(3) {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#postalcard div:nth-last-of-type(4) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#postalcard div:nth-last-of-type(5) {
+}
+
+#postalcard div:nth-last-of-type(6) {
+  grid-row: span 2 / span 2;
+  width: 288px;
+  height: 160px;
+}

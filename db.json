@@ -1,0 +1,86 @@
+{
+  "category_product": [
+    { "id": 1, "category_name": "دکور خانه", "category_img": "/category_img/1.png" },
+    { "id": 2, "category_name": "لباس", "category_img": "/category_img/2.png" },
+    { "id": 3, "category_name": "لوازم تحریر", "category_img": "/category_img/3.png" },
+    { "id": 4, "category_name": "اکسسوری", "category_img": "/category_img/4.png" },
+    { "id": 5, "category_name": "کارت تبریک", "category_img": "/category_img/5.png" },
+    { "id": 6, "category_name": "قاب موبایل", "category_img": "/category_img/6.png" }
+  ],
+  "best_sellers": [
+    { "id": 1, "product_name": "ماگ قابل طراحی","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img1.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 2, "product_name": "باکس غذا","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img2.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 3, "product_name": "ماگ سرامیکی","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img3.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 4, "product_name": "دفتر سیمی","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img4.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 5, "product_name": "تیشرت زنانه","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img5.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 6, "product_name": "تیشرت مردانه","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img6.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 7, "product_name": "قاب موبایل آیفون","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img7.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 8, "product_name": "کلاه مردانه","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/bestSellers_img/img8.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" }
+  ],
+  "special_offers":[
+    {"id":1,"special_name":"مدرسه و اداره","special_img":"/special_offers_img/img1.png","offers":"10%"},
+    {"id":2,"special_name":"پوشاک","special_img":"/special_offers_img/img2.png","offers":"30%"},
+    {"id":3,"special_name":"استیکر","special_img":"/special_offers_img/img3.png","offers":"50%"},
+    {"id":4,"special_name":"دیجیتال","special_img":"/special_offers_img/img4.png","offers":"20%"},
+    {"id":5,"special_name":"لوازم خانه","special_img":"/special_offers_img/img5.png","offers":"30%"}
+  ],
+  "popular_designs":[
+    {"id":1,"popular_name":"بک گراند قاب موبایل","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img1.png"},
+    {"id":2,"popular_name":"استیکر","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img2.png"},
+    {"id":3,"popular_name":"استیکر","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img3.png"},
+    {"id":4,"popular_name":"استیکر","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img4.png"},
+    {"id":5,"popular_name":"استیکر حروف","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img5.png"},
+    {"id":6,"popular_name":"استیکر","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img6.png"},
+    {"id":7,"popular_name":"تصویر آفتابگردان","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img5.png"},
+    {"id":8,"popular_name":"استیکر حروف","popular_info":"قابل طراحی و چاپ بر روی انواع محصولات","product_like":false,"popular_img":"/popular_designs_img/img5.png"}
+  ],
+  "top_designer":[
+    {"id":1,"designer_name":"آرش نظری","designer_avatar":"/designer_avatar_img/Profile1.png","designer_info":{"followers":"50","design":"9","sell":"1"},"designer_info_img":["/designer_info_img/pic1_1.png","/designer_info_img/pic1_2.png","/designer_info_img/pic1_3.png"]},
+    {"id":2,"designer_name":"سارا محمدی","designer_avatar":"/designer_avatar_img/Profile2.png","designer_info":{"followers":"10","design":"6","sell":"6"},"designer_info_img":["/designer_info_img/pic2_1.png","/designer_info_img/pic2_2.png","/designer_info_img/pic2_3.png"]},
+    {"id":3,"designer_name":"شهرام طالبی","designer_avatar":"/designer_avatar_img/Profile3.png","designer_info":{"followers":"10","design":"2","sell":"0"},"designer_info_img":["/designer_info_img/pic3_1.png","/designer_info_img/pic3_2.png","/designer_info_img/pic3_3.png"]},
+    {"id":4,"designer_name":"نگار زمانی","designer_avatar":"/designer_avatar_img/Profile4.png","designer_info":{"followers":"10","design":"5","sell":"9"},"designer_info_img":["/designer_info_img/pic4_1.png","/designer_info_img/pic4_2.png","/designer_info_img/pic4_3.png"]},
+    {"id":5,"designer_name":"نیلوفر کریمی","designer_avatar":"/designer_avatar_img/Profile5.png","designer_info":{"followers":"30","design":"9","sell":"7"},"designer_info_img":["/designer_info_img/pic5_1.png","/designer_info_img/pic5_2.png","/designer_info_img/pic5_3.png"]},
+    {"id":6,"designer_name":"مرجان جعفری","designer_avatar":"/designer_avatar_img/Profile6.png","designer_info":{"followers":"60","design":"2","sell":"5"},"designer_info_img":["/designer_info_img/pic6_1.png","/designer_info_img/pic6_2.png","/designer_info_img/pic6_3.png"]},
+    {"id":7,"designer_name":"سعید سلیمی","designer_avatar":"/designer_avatar_img/Profile7.png","designer_info":{"followers":"40","design":"5","sell":"2"},"designer_info_img":["/designer_info_img/pic7_1.png","/designer_info_img/pic7_2.png","/designer_info_img/pic7_3.png"]},
+    {"id":8,"designer_name":"سمانه جوادی","designer_avatar":"/designer_avatar_img/Profile8.png","designer_info":{"followers":"40","design":"0","sell":"0"},"designer_info_img":["/designer_info_img/pic8_1.png","/designer_info_img/pic8_2.png","/designer_info_img/pic8_3.png"]}
+  ],
+  "weekly_new_designs": [
+    { "id": 1, "product_name": "قاب عکس","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-1.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 2, "product_name": "ماگ قابل طراحی","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-2.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 3, "product_name": "ماگ سرامیکی","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-3.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 4, "product_name": "ساک هدیه","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-4.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 5, "product_name": "کوسن","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-5.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 6, "product_name": "تیشرت زنانه","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-6.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 7, "product_name": "چمدان","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-7.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" }
+  ],
+  "postal_card":[
+    {"id":1,"postal_img":"/postal_card_img/img1.png","postal_name":"postal"},
+    {"id":2,"postal_img":"/postal_card_img/img2.png","postal_name":"postal"},
+    {"id":3,"postal_img":"/postal_card_img/img3.png","postal_name":"postal"},
+    {"id":4,"postal_img":"/postal_card_img/img4.png","postal_name":"postal"},
+    {"id":5,"postal_img":"/postal_card_img/img5.png","postal_name":"postal"},
+    {"id":6,"postal_img":"/postal_card_img/img6.png","postal_name":"postal"}
+
+  ],
+  "user_favorites":[
+    { "id": 1, "product_name": "قاب عکس","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-1.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 1, "product_name": "قاب عکس","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-1.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" },
+    { "id": 1, "product_name": "قاب عکس","product_info":"دارای رنگ بندی، قابل طراحی","product_img":"/weekly_new_designs_img/img-1.png","product_like":false, "product_price": "تومان۱۵۰,۰۰۰" }
+
+  ]
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
