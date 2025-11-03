@@ -1,0 +1,13 @@
+export default function handler(req, res) {
+    const data = [
+        { "id": 1, "designer_name": "آرش نظری", "designer_avatar": "/designer_avatar_img/Profile1.png", "designer_info": { "followers": "50", "design": "9", "sell": "1" }, "designer_info_img": ["/designer_info_img/pic1_1.png", "/designer_info_img/pic1_2.png", "/designer_info_img/pic1_3.png"] },
+        { "id": 2, "designer_name": "سارا محمدی", "designer_avatar": "/designer_avatar_img/Profile2.png", "designer_info": { "followers": "10", "design": "6", "sell": "6" }, "designer_info_img": ["/designer_info_img/pic2_1.png", "/designer_info_img/pic2_2.png", "/designer_info_img/pic2_3.png"] },
+        { "id": 3, "designer_name": "شهرام طالبی", "designer_avatar": "/designer_avatar_img/Profile3.png", "designer_info": { "followers": "10", "design": "2", "sell": "0" }, "designer_info_img": ["/designer_info_img/pic3_1.png", "/designer_info_img/pic3_2.png", "/designer_info_img/pic3_3.png"] },
+        { "id": 4, "designer_name": "نگار زمانی", "designer_avatar": "/designer_avatar_img/Profile4.png", "designer_info": { "followers": "10", "design": "5", "sell": "9" }, "designer_info_img": ["/designer_info_img/pic4_1.png", "/designer_info_img/pic4_2.png", "/designer_info_img/pic4_3.png"] },
+        { "id": 5, "designer_name": "نیلوفر کریمی", "designer_avatar": "/designer_avatar_img/Profile5.png", "designer_info": { "followers": "30", "design": "9", "sell": "7" }, "designer_info_img": ["/designer_info_img/pic5_1.png", "/designer_info_img/pic5_2.png", "/designer_info_img/pic5_3.png"] },
+        { "id": 6, "designer_name": "مرجان جعفری", "designer_avatar": "/designer_avatar_img/Profile6.png", "designer_info": { "followers": "60", "design": "2", "sell": "5" }, "designer_info_img": ["/designer_info_img/pic6_1.png", "/designer_info_img/pic6_2.png", "/designer_info_img/pic6_3.png"] },
+        { "id": 7, "designer_name": "سعید سلیمی", "designer_avatar": "/designer_avatar_img/Profile7.png", "designer_info": { "followers": "40", "design": "5", "sell": "2" }, "designer_info_img": ["/designer_info_img/pic7_1.png", "/designer_info_img/pic7_2.png", "/designer_info_img/pic7_3.png"] },
+        { "id": 8, "designer_name": "سمانه جوادی", "designer_avatar": "/designer_avatar_img/Profile8.png", "designer_info": { "followers": "40", "design": "0", "sell": "0" }, "designer_info_img": ["/designer_info_img/pic8_1.png", "/designer_info_img/pic8_2.png", "/designer_info_img/pic8_3.png"] }
+    ]
+    return res.status(200).json(data);
+}
